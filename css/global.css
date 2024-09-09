@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Neutra2';
+    src: url('/src/assets/fonts/Neutraface2Display-Titling.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+
+    --color-background: #f4f4f4;
+}
+
+*,
+*::after,
+*::before {
+    background-color: var(--color-background);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
