@@ -1,0 +1,48 @@
+.header__top-navbar {
+  background-color: var(--color-background-top-navbar);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+}
+
+.header__top-container {
+  padding: 0px 10px;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 1296px;
+  margin: auto;
+}
+
+.header__top-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__top-nav-item-my-account {
+  margin-right: 54px;
+}
+
+.header__top-nav-button-my-account {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.header__top-nav-button-my-account img {
+  width: 23px;
+  height: 22px;
+  margin-right: 11px;
+}
+
+.material-symbols-outlined {
+  font-size: 24px; /* Розмір іконки */
+  color: #ffffff; /* Колір іконки */
+  margin-right: 11px;
+}
+
+.header__top-nav-button-need-help {
+  padding: 0px 0px 0px 10px;
+}

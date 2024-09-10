@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+
+    /*colors*/
+    --color-background: #f4f4f4;
+    --color-background-top-navbar: #2a2a2a;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Noto+Sans, sans-serif;
+}
+
+body{
+    background-color: var(--color-background);    
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    all: unset; /* Скидає всі стилі до значень за замовчуванням */
+    display: inline; /* Залишає кнопку як звичайний елемент в рядку */
+    background: none; /* Вимикає фон кнопки */
+    border: none; /* Вимикає бордер кнопки */
+    padding: 0; /* Вимикає відступи всередині кнопки */
+    margin: 0; /* Вимикає відступи навколо кнопки */
+    font: inherit; /* Спадковий шрифт від батьківського елемента */
+    cursor: pointer; /* Вказівник курсору як кнопка */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
