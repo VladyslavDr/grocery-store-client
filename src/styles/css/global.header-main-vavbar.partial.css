@@ -1,0 +1,10 @@
+.header__main-navbar
+{
+    background-color: #ffffff;
+    border-bottom: 1px solid #d4d4d4;
+    width: 100%;
+    height: 70px;
+
+    position: sticky;
+    top: 0;
+}

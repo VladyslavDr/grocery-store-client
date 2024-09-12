@@ -1,5 +1,8 @@
 .header__start-insert
 {
   height: 3px;
+  width: 100%;
   background-color: var(--color-background-start-insert);
+  position: fixed;
+  z-index: 2;
 }
