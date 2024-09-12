@@ -1,2 +1,3 @@
 @import "global.css";
+@import "global.header-start-insert.partial.css";
 @import "global.header-top-navbar.partial.css";

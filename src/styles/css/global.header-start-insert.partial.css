@@ -1,0 +1,5 @@
+.header__start-insert
+{
+  height: 3px;
+  background-color: var(--color-background-start-insert);
+}

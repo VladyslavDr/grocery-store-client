@@ -9,13 +9,15 @@
             integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
             crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="src/assets/images/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,20" /> -->
+    
     <title>Longo’s Markets | Longos Online Shopping</title>
     <link rel="stylesheet" href="src/styles/css/index.css">
     
 </head>
 <body>
     <header class="header">
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="src/partials/global.header-start-insert.partial"></nav>
         <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="src/partials/global.header-top-navbar.partial.html"></nav>
         <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="src/partials/global.header-main-navbar.partial.html"></nav>
         <nav class="header__third-level-navigation"></nav>

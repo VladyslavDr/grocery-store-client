@@ -1,103 +1,56 @@
 .header__top-navbar {
   background-color: var(--color-background-top-navbar);
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
+  color: #fff;
   height: 36px;
-
-  position: relative;
+  font-weight: 500;
+  /* font-size: smaller; */
+  display: flex;
+  justify-content: center;
 }
 
 .header__top-container {
-  padding: 0px 10px;
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  max-width: 1296px;
-  margin: auto;
+  background-color: aquamarine;
+  width: 1296px;
+  padding: 0px 8px;
 
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__welcome-message {
+  background-color: blueviolet;
+
+  display: flex;
+  align-items: center;
 }
 
 .header__top-nav-list {
+  background-color: chocolate;
+
   display: flex;
   align-items: center;
-
-  position: relative;
 }
-
 .header__top-nav-item-my-account {
   margin-right: 54px;
-
-  position: relative;
 }
-
-.header__top-nav-item-need-help {
-    margin-right: 54px;
-  
-    position: relative;
-  }
+.header__top-nav-button-my-account svg {
+  margin-right: 11px;
+}
 
 .header__top-nav-button-my-account {
+  background-color: rgb(166, 166, 65);
+  padding: 0px 10px;
   display: flex;
   align-items: center;
-  padding: 0px 10px 0px 10px;
-
-  position: relative;
-}
-
-.header__top-nav-button-my-account img {
-  width: 23px;
-  height: 22px;
-  margin-right: 11px;
-}
-
-.material-symbols-outlined {
-  font-size: 24px; /* Розмір іконки */
-  color: #ffffff; /* Колір іконки */
-  margin-right: 11px;
 }
 
 .header__top-nav-button-need-help {
+  background-color: cadetblue;
   padding: 0px 0px 0px 10px;
-  height: 24px;
-
-  position: relative;
 }
 
 .header__top-dropdown-menu {
+  background-color: cornflowerblue;
   display: none;
-  position: absolute;
-  color: var(--color-background-top-navbar);
-  border-radius: 5px;
-  border-top: 5px solid var(--color-primary);
-  background-color: #ffffff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-
-  right: 0;
-  /* left: 0; */
-}
-
-.header__top-nav-item-my-account:hover .header__top-dropdown-menu,
-.header__top-nav-item-need-help:hover .header__top-dropdown-menu {
-    display: block;
-}
-
-.header__top-dropdown-menu-button{
-    padding: 19px;
-    width: 175px;
-}
-
-.header__top-dropdown-menu-item:hover {
-    /* background-color: var(--color-primary); */
-    background-color: rgb(94, 218, 227);
-
-    color: #ffffff;
-}
-
-.header__top-dropdown-menu-list {
-    overflow: hidden;
 }
